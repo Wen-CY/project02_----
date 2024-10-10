@@ -1,0 +1,93 @@
+.logo {
+    height: 50px;
+    margin-right: 20px;
+ }
+ 
+.icon {
+    width: 30px;
+    color: #fff;
+ }
+ 
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+ }
+ 
+.nav-link {
+    color: #000;
+    border-radius: 10px;
+ }
+.nav-link, a {
+    color: #000
+ }
+ 
+.nav-link:active {
+    background-color: #ffc105;
+    color: #000;
+    border-radius: 10px;
+ }
+ 
+.nav-link:hover {
+    border: solid 2px #ffc105;
+    color: #000;
+    border-radius: 10px;
+ }
+ 
+.banner {
+    aspect-ratio: 2;
+    object-fit: cover;
+ 
+ }
+.pricing-card-title {
+    font-size: 26px;
+ }
+.pricing-card-title small {
+    font-size: 18px;
+ }
+.carousel-item img {
+    aspect-ratio: 2.6;
+    object-fit: cover;
+    object-position: center 30%;
+ }
+ 
+ /* 預約  */
+#book-header header {
+    margin-bottom: 0px;
+ }
+.main-text {
+    color: #ffc105;
+    font-weight: 800;
+}
+.main-text::after {
+    display: block;
+    content: "";
+    width: 50px;
+    height: 5px;
+    background: #ffc105;
+    position: relative;
+    top: 10px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+#btn {
+    background: #ffc105;
+    padding: 0.5em;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    box-shadow: 1px 3px 4px 2px rgba(255, 193, 5, 0.6);
+    border: none;
+}
+#btn:hover {
+    background-color: #555;
+    box-shadow: 1px 3px 4px 2px rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+.form-label {
+    font-weight: 700;
+}
+::placeholder {
+    color: #80808069!important;
+ }
+         
